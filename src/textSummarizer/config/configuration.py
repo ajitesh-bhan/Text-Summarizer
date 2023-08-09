@@ -5,7 +5,7 @@ from textSummarizer.utils.common import read_yaml, create_directories
 from textSummarizer.entity import (DataIngestionConfig,
                                    DataValidationConfig,
                                    DataTransformationConfig,
-                                   
+                                   ModelModelTrainerConfig,
                                    ModelEvaluationConfig)
 
 
@@ -64,7 +64,7 @@ class ConfigurationManager:
         return data_transformation_config
     
 
-'''
+
     def get_model_trainer_config(self) -> ModelTrainerConfig:
         config = self.config.model_trainer
         params = self.params.TrainingArguments
@@ -105,4 +105,3 @@ class ConfigurationManager:
 
         return model_evaluation_config
 
-'''
