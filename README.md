@@ -6,12 +6,12 @@ Used Hugging Face pretrained model PEGASUS for legal document summarization and 
 
 ## How to run 
 
-1. Clone the Resp. https://github.com/ajitesh-bhan/Text-Summarizer
-2. Create a conda environment after opening the repository 
-   conda create -n summary python=3.8 -y
-   conda activate summary
+1. Clone the Resp. <br /> https://github.com/ajitesh-bhan/Text-Summarizer
+2. Create a conda environment after opening the repository <br />
+   conda create -n summary python=3.8 -y <br />
+   conda activate summary 
 
-3. install the requirements
+3. install the requirements <br />
     pip install -r requirements.txt
 4. Run python app.py
 
@@ -19,7 +19,7 @@ Now open your Local host and port as mentioned in the terminal window
 
 ## Project workflow 
 
-(Check research folder for ipynb files for individual steps and to make change in any methods follwing below all files need to be updated)
+(Check research folder for ipynb files for individual steps and to make change in any methods follwing below all files need to be updated) <br />
 1. Update config.yaml
 2. Update parms.yaml
 3. Update entity
