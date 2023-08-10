@@ -3,6 +3,7 @@ transformers[sentencepiece]
 datasets
 sacrebleu 
 jupyter
+fastapi
 rouge_score 
 py7zr
 pandas
